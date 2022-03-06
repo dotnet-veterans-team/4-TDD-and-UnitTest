@@ -1,0 +1,254 @@
+{
+  "WebApiPaymentDashBoard.dll": {
+    "C:\\Users\\aluga.com\\Documents\\Projects\\kpi\\WebApiPaymentDashBoard\\WebApiPaymentDashBoard\\Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "1": 0,
+            "5": 0,
+            "7": 0,
+            "8": 0,
+            "10": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "21": 0,
+            "23": 0,
+            "25": 0
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 64,
+              "EndOffset": 66,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 64,
+              "EndOffset": 84,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\aluga.com\\Documents\\Projects\\kpi\\WebApiPaymentDashBoard\\WebApiPaymentDashBoard\\Services\\AccountManagementService.cs": {
+      "WebApiPaymentDashBoard.Services.AccountManagementService": {
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<WebApiPaymentDashBoard.Model.TransactionStatment>> WebApiPaymentDashBoard.Services.AccountManagementService::GetAccountStatments(System.Int32,System.DateTime,System.DateTime)": {
+          "Lines": {
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<System.Decimal> WebApiPaymentDashBoard.Services.AccountManagementService::SubtractFromAmount(System.Int32,System.Decimal)": {
+          "Lines": {
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.Void WebApiPaymentDashBoard.Services.AccountManagementService::.ctor(WebApiPaymentDashBoard.Interfaces.IMathService,WebApiPaymentDashBoard.Interfaces.IAuthentication)": {
+          "Lines": {
+            "10": 2,
+            "11": 2,
+            "12": 2,
+            "13": 2,
+            "14": 2
+          },
+          "Branches": []
+        }
+      },
+      "WebApiPaymentDashBoard.Services.AccountManagementService/<AddToAmount>d__3": {
+        "System.Void WebApiPaymentDashBoard.Services.AccountManagementService/<AddToAmount>d__3::MoveNext()": {
+          "Lines": {
+            "17": 2,
+            "18": 2,
+            "20": 2,
+            "21": 1,
+            "22": 1,
+            "25": 1,
+            "26": 1
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 164,
+              "EndOffset": 166,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 20,
+              "Offset": 164,
+              "EndOffset": 178,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\aluga.com\\Documents\\Projects\\kpi\\WebApiPaymentDashBoard\\WebApiPaymentDashBoard\\Services\\Authentication.cs": {
+      "WebApiPaymentDashBoard.Services.Authentication": {
+        "System.Void WebApiPaymentDashBoard.Services.Authentication::.ctor(Microsoft.Azure.CosmosRepository.IRepositoryFactory)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebApiPaymentDashBoard.Services.Authentication/<GetUserByIdAsync>d__2": {
+        "System.Void WebApiPaymentDashBoard.Services.Authentication/<GetUserByIdAsync>d__2::MoveNext()": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\aluga.com\\Documents\\Projects\\kpi\\WebApiPaymentDashBoard\\WebApiPaymentDashBoard\\Services\\MapServices.cs": {
+      "WebApiPaymentDashBoard.Services.MapServices": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection WebApiPaymentDashBoard.Services.MapServices::ResolveDependencies(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\aluga.com\\Documents\\Projects\\kpi\\WebApiPaymentDashBoard\\WebApiPaymentDashBoard\\Services\\MathService.cs": {
+      "WebApiPaymentDashBoard.Services.MathService": {
+        "System.Decimal WebApiPaymentDashBoard.Services.MathService::Subtract(System.Decimal,System.Decimal)": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal WebApiPaymentDashBoard.Services.MathService::Sum(System.Decimal,System.Decimal)": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\aluga.com\\Documents\\Projects\\kpi\\WebApiPaymentDashBoard\\WebApiPaymentDashBoard\\Model\\TransactionStatment.cs": {
+      "WebApiPaymentDashBoard.Model.TransactionStatment": {
+        "System.Int32 WebApiPaymentDashBoard.Model.TransactionStatment::get_Id()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String WebApiPaymentDashBoard.Model.TransactionStatment::get_Name()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.String WebApiPaymentDashBoard.Model.TransactionStatment::get_Description()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal WebApiPaymentDashBoard.Model.TransactionStatment::get_PreviousBalance()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal WebApiPaymentDashBoard.Model.TransactionStatment::get_TotalBalance()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal WebApiPaymentDashBoard.Model.TransactionStatment::get_Withdrawals()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime WebApiPaymentDashBoard.Model.TransactionStatment::get_CreatedDate()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime WebApiPaymentDashBoard.Model.TransactionStatment::get_Date()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\aluga.com\\Documents\\Projects\\kpi\\WebApiPaymentDashBoard\\WebApiPaymentDashBoard\\Model\\User.cs": {
+      "WebApiPaymentDashBoard.Model.User": {
+        "System.Int32 WebApiPaymentDashBoard.Model.User::get_Id()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 WebApiPaymentDashBoard.Model.User::get_ProfileId()": {
+          "Lines": {
+            "12": 1
+          },
+          "Branches": []
+        },
+        "System.Decimal WebApiPaymentDashBoard.Model.User::get_CurrentBalance()": {
+          "Lines": {
+            "14": 2
+          },
+          "Branches": []
+        },
+        "System.String WebApiPaymentDashBoard.Model.User::get_Name()": {
+          "Lines": {
+            "16": 1
+          },
+          "Branches": []
+        },
+        "System.DateTime WebApiPaymentDashBoard.Model.User::get_CreatedDate()": {
+          "Lines": {
+            "18": 1
+          },
+          "Branches": []
+        },
+        "System.String WebApiPaymentDashBoard.Model.User::get_Email()": {
+          "Lines": {
+            "20": 1
+          },
+          "Branches": []
+        },
+        "System.String WebApiPaymentDashBoard.Model.User::get_AccountNumber()": {
+          "Lines": {
+            "22": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
